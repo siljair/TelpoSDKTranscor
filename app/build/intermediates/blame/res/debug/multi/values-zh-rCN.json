@@ -3775,7 +3775,7 @@
                     "startOffset": 10141,
                     "endLine": 210,
                     "endColumn": 9,
-                    "endOffset": 10450
+                    "endOffset": 10449
                 },
                 "from": {
                     "file": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\values-zh-rCN\\bcr_themes.xml",
@@ -3785,7 +3785,7 @@
                         "startOffset": 56,
                         "endLine": 8,
                         "endColumn": 9,
-                        "endOffset": 365
+                        "endOffset": 364
                     }
                 }
             }
