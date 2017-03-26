@@ -1,0 +1,212 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:2:1-102:12
+	package
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:7:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:7:15-41
+		INJECTED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.usb.host
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:9:5-11:35
+	android:required
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:11:9-32
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:10:9-49
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:13:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:14:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:19:5-74
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:19:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:20:22-65
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:21:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:24:5-75
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:24:22-72
+uses-permission#android.permission.MANAGE_USERS
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:25:5-71
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:25:22-68
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:27:22-76
+application
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:29:5-100:19
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:31:9-41
+	android:icon
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:30:9-38
+receiver#com.telpo.tps550.api.demo.BroadCastReceiver
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:32:9-41:20
+	android:enabled
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:34:13-35
+	android:permission
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:35:13-75
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:33:13-46
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.DEFAULT
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:36:13-40:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:37:17-79
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:37:25-76
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:39:27-73
+activity#com.telpo.tps550.api.demo.MainActivity
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:43:9-55:20
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:45:13-45
+	android:stateNotNeeded
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:47:13-42
+	android:launchMode
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:46:13-48
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:44:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.HOME+android.intent.category.LAUNCHER
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:48:13-54:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:49:25-66
+category#android.intent.category.HOME
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:51:17-73
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:51:27-70
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:53:17-77
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:53:27-74
+activity#com.telpo.tps550.api.demo.ocr.OcrActivity
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:56:9-59:20
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:58:13-45
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:57:13-44
+activity#com.telpo.tps550.api.demo.megnetic.MegneticActivity
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:60:9-62:58
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:62:13-55
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:61:13-54
+activity#com.telpo.tps550.api.demo.iccard.IccActivity
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:63:9-65:49
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:65:13-46
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:64:13-47
+activity#com.telpo.tps550.api.demo.printer.PrinterActivity
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:66:9-68:50
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:68:13-47
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:67:13-52
+activity#com.telpo.tps550.api.demo.rfid.ConsumeActivity
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:69:9-71:49
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:71:13-46
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:70:13-49
+activity#com.telpo.tps550.api.demo.idcard.IdCardActivity
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:72:9-74:53
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:74:13-50
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:73:13-50
+activity#com.telpo.tps550.api.demo.rfid.RfidActivity
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:75:9-55
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:75:19-52
+activity#com.telpo.tps550.api.demo.AberturaTurno
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:76:9-79:20
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:78:13-66
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:77:13-42
+activity#com.telpo.tps550.api.demo.ValidarPasse
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:80:9-83:20
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:82:13-65
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:81:13-41
+activity#com.telpo.tps550.api.demo.FecharTurno
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:84:9-87:20
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:86:13-64
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:85:13-40
+activity#com.telpo.tps550.api.demo.ResumoFecho
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:88:9-91:20
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:90:13-64
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:89:13-40
+activity#com.telpo.tps550.api.demo.TransportePrivado
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:92:9-95:20
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:94:13-70
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:93:13-46
+activity#com.telpo.tps550.api.demo.SettingsActivity
+ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:96:9-99:20
+	android:label
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:98:13-60
+	android:name
+		ADDED from C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\src\main\AndroidManifest.xml:97:13-45

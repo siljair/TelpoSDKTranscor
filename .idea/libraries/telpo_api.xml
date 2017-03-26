@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="telpo_api">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/telpo_api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

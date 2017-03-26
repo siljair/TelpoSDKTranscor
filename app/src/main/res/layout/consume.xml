@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/desk_logo">
+
+    <Button
+            android:background="@drawable/unpress"
+            android:layout_width="180dp"
+            android:layout_height="65dp"
+            android:id="@+id/init"
+            android:layout_marginLeft="200dp"
+
+            android:padding="2pt"
+            android:shadowColor="#f0f"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="2"
+            android:text="@string/init_card"
+            android:layout_marginTop="141dp"
+            android:layout_alignParentTop="true" android:layout_alignParentLeft="true"/>
+    <Button
+            android:background="@drawable/unpress"
+            android:layout_width="180dp"
+            android:layout_height="65dp"
+            android:id="@+id/query"
+
+            android:text="@string/query"
+            android:layout_alignTop="@+id/init" 
+            android:layout_toRightOf="@+id/init"
+            android:layout_marginLeft="50dp"
+            android:padding="2pt"
+            android:shadowColor="#f0f"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="2"/>
+
+    <Button
+            android:background="@drawable/unpress"
+            android:layout_width="180dp"
+            android:layout_height="65dp"
+            android:text="@string/recharge"
+
+            android:padding="2pt"
+            android:shadowColor="#f0f"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="2"
+            android:id="@+id/recharge"
+            android:layout_alignRight="@+id/query"
+            android:layout_alignLeft="@+id/query" 
+            android:layout_alignBottom="@+id/consume"/>
+
+    <Button
+            android:background="@drawable/unpress"
+            android:layout_width="180dp"
+            android:layout_height="65dp"
+            android:text="@string/consume"
+
+            android:padding="2pt"
+            android:shadowColor="#f0f"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="2"
+            android:id="@+id/consume"
+            android:layout_marginTop="51dp"
+            android:layout_below="@+id/init" 
+            android:layout_toLeftOf="@+id/query"/>
+</RelativeLayout>

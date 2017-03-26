@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FFFFFF</color>
+    <color name="other">#024079</color>
+    <color name="result_points">#c000ff00</color>
+</resources>

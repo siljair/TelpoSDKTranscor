@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/Gray"
+              >
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:id="@+id/versionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/printer_version"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                android:id="@+id/print_version"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/barcodeLayout"
+            android:layout_below="@id/versionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bar_code"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:inputType="number"
+                android:maxLength="12"
+                android:id="@+id/set_Barcode"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="@string/digits_11_12"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                />
+
+            <Button
+                android:layout_width="120dip"
+                android:layout_height="match_parent"
+                android:text="@string/print_bar_code"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:background="@drawable/start_button"
+                android:id="@+id/print_barcode"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/qrcodeLayout"
+            android:layout_below="@id/barcodeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/D_bar_code"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                />
+
+            <EditText android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:inputType="text"
+                android:maxLength="50"
+                android:id="@+id/set_Qrcode"
+                />
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="(3-13位)"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                android:visibility="invisible"
+                />
+
+            <Button android:layout_width="120dip"
+                android:layout_height="match_parent"
+                android:text="@string/print_2D_barcode"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:background="@drawable/start_button"
+                android:id="@+id/print_qrcode"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stepLayout"
+            android:layout_below="@id/qrcodeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/walk_paper_lines"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                />
+
+            <EditText android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:inputType="number"
+                android:maxLength="3"
+                android:id="@+id/set_paperWalk"
+                />
+
+            <Button android:layout_width="120dip"
+                android:layout_height="match_parent"
+                android:text="@string/walk_paper_test"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:background="@drawable/start_button"
+                android:id="@+id/print_paperWalk"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/printFormatLayout1"
+            android:layout_below="@id/stepLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/left_margin"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                />
+            <EditText android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:inputType="number"
+                android:maxLength="3"
+                android:id="@+id/set_leftDistance"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="(0-255)"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                />
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="@string/right_margin"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                android:visibility="gone"
+                />
+            <EditText android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:inputType="number"
+                android:id="@+id/set_rightDistance"
+                android:visibility="gone"
+                />
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/row_space"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                />
+            <EditText android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:inputType="number"
+                android:maxLength="3"
+                android:id="@+id/set_lineDistance"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="(0-255)"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/printFormatLayout2"
+            android:layout_below="@id/printFormatLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/font_size"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                />
+            <EditText android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:inputType="number"
+                android:maxLength="1"
+                android:id="@+id/set_wordFont"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="(1-3)"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                />
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="@string/gray_level"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                />
+            <EditText android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:inputType="number"
+                android:maxLength="2"
+                android:id="@+id/set_printGray"
+                />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="(1-20)"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                />
+
+        </LinearLayout>
+
+
+        <!---<DatePicker android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    >
+        </DatePicker>-->
+
+        <LinearLayout
+            android:id="@+id/printContentLayout"
+            android:layout_below="@id/printFormatLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dip">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/print_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/Black"
+                    />
+
+                <Button
+                    android:layout_marginLeft="40dip"
+                    android:layout_width="180dip"
+                    android:layout_height="match_parent"
+                    android:text="@string/chinese_example"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:background="@drawable/start_button"
+                    android:id="@+id/getZhPrintExample"
+                    />
+
+                <Button
+                    android:layout_marginLeft="40dip"
+                    android:layout_width="180dip"
+                    android:layout_height="match_parent"
+                    android:text="@string/english_example"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:background="@drawable/start_button"
+                    android:id="@+id/getPrintExample"
+                    />
+
+                <Button
+                    android:layout_marginLeft="40dip"
+                    android:layout_width="120dip"
+                    android:layout_height="match_parent"
+                    android:text="@string/clear_text"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:background="@drawable/start_button"
+                    android:id="@+id/clearText"
+                    />
+
+            </LinearLayout>
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:inputType="textMultiLine"
+                android:singleLine="false"
+                android:id="@+id/set_content"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/printTextLayout"
+            android:layout_below="@id/printContentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="65dip"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            >
+
+            <Button
+                android:layout_width="120dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:text="@string/print_text"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:background="@drawable/start_button"
+                android:id="@+id/print_content"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@id/printTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="20dip"></LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDK\app\libs\IDCReaderSDK.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f9f85ebc5120b5de197f5d74c078d44b9b72da97">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDK\app\build\intermediates\pre-dexed\debug\IDCReaderSDK-1b7c79b40e7288792c9a0ffe37a8f749cf89b70f.jar" />
+    </item>
+    <item
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDK\app\libs\acssmc-1.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3b53a5b538781387cf5f0a35df7fd48b4692e21b">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDK\app\build\intermediates\pre-dexed\debug\acssmc-1.1.1-320e1997f77a303700fb522a6868f28bbf2142ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\libs\core-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e4a736ea74e548f346870b58648a1b830ff3ac82">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\pre-dexed\debug\core-3.1.0_b92fd83da35102a1b277e7e27a3ad3d3256afb3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\libs\ksoap2-android-assembly-2.6.0-jar-with-dependencies.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="400a2afc7073b2e68c3841db8b9b71d4182f242d">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.6.0-jar-with-dependencies_fa0646b73979f36b81b37b79d7f384b42edd1b07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\libs\IDCReaderSDK.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f9f85ebc5120b5de197f5d74c078d44b9b72da97">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\pre-dexed\debug\IDCReaderSDK_1c2eafab5cb0e0f6ac4cb957f954cec4029d7235.jar" />
+    </item>
+    <item
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDK\app\libs\core-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e4a736ea74e548f346870b58648a1b830ff3ac82">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDK\app\build\intermediates\pre-dexed\debug\core-3.1.0-979c4e9aa396b228c8db437ac1e06dd41ea1fe3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a47a8bfd45c8cb5af2df5584ab9f9d53bb962935">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_530c57ab1f2879d5e09940c1cd6cdf3f5147a2a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="51d4e7a6533672e88808ca7688f41470bee14a24">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\pre-dexed\debug\instant-run_dabf185a4b45995f3732a28537dbd05d35522dfe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\libs\acssmc-1.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3b53a5b538781387cf5f0a35df7fd48b4692e21b">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\pre-dexed\debug\acssmc-1.1.1_17af6dc658116ddb6b95a0f3f1101f7ecf59093f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\libs\telpo_api.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="803e85d67f873a71caed18cad8377d96148d0e3f">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\pre-dexed\debug\telpo_api_a8039c66fc28b52de91d35916414442412444107.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\libs\core-3.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e4a736ea74e548f346870b58648a1b830ff3ac82">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\pre-dexed\debug\core-3.1.0_b92fd83da35102a1b277e7e27a3ad3d3256afb3d.jar" />
+    </item>
+    <item
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDK\app\libs\telpo_api.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="803e85d67f873a71caed18cad8377d96148d0e3f">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDK\app\build\intermediates\pre-dexed\debug\telpo_api-8518459b1e9a19ecf8793c980a5ce8f007e63109.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\libs\telpo_api.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="803e85d67f873a71caed18cad8377d96148d0e3f">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\pre-dexed\debug\telpo_api_a8039c66fc28b52de91d35916414442412444107.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\libs\IDCReaderSDK.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f9f85ebc5120b5de197f5d74c078d44b9b72da97">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\pre-dexed\debug\IDCReaderSDK_1c2eafab5cb0e0f6ac4cb957f954cec4029d7235.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\libs\ksoap2-android-assembly-2.6.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="400a2afc7073b2e68c3841db8b9b71d4182f242d">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.6.0-jar-with-dependencies_fa0646b73979f36b81b37b79d7f384b42edd1b07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\libs\acssmc-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3b53a5b538781387cf5f0a35df7fd48b4692e21b">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\pre-dexed\debug\acssmc-1.1.1_17af6dc658116ddb6b95a0f3f1101f7ecf59093f.jar" />
+    </item>
+    <item
+        jar="C:\Users\cardoso\StudioProjects\TelpoSDK\app\libs\ksoap2-android-assembly-2.6.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="400a2afc7073b2e68c3841db8b9b71d4182f242d">
+        <dex dex="C:\Users\cardoso\StudioProjects\TelpoSDK\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.6.0-jar-with-dependencies-ddf962ee1d47bfc35fa9f1431b29668e2bdd6ac6.jar" />
+    </item>
+
+</items>

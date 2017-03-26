@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.telpo.tps550.api.demo.SettingsActivity"
+    android:background="@drawable/bg2">
+
+    <TextView android:text="Codigo" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:textSize="50dp"
+        android:textColor="@color/Black" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/EditText15"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:textSize="50dp"
+        android:textColor="@color/Black"
+        android:inputType="textPassword"
+        android:background="@color/Gray_Line" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Validar Password"
+        android:id="@+id/buttonVerifPassword"
+        android:textSize="50dp"
+        android:textColor="@color/Black"
+        android:layout_below="@+id/EditText15"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerAutocarro"
+        android:visibility="invisible"
+        android:textAlignment="center"
+        android:layout_below="@+id/buttonVerifPassword"
+        android:layout_alignParentLeft="false"
+        android:layout_marginTop="320dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Autocarro"
+        android:id="@+id/buttonGuardar"
+        android:textSize="50dp"
+        android:visibility="invisible"
+        android:layout_below="@+id/spinnerAutocarro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView15"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Novo Codigo"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/buttonVerifPassword"
+        android:layout_alignLeft="@+id/buttonVerifPassword"
+        android:textColor="@color/Black"
+        android:textSize="50dp"
+        android:visibility="invisible"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNovaPassword"
+        android:layout_below="@+id/textView16"
+        android:textSize="50dp"
+        android:visibility="invisible"
+        android:background="@color/Orange" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alterar Password"
+        android:id="@+id/buttonAlterarPassword"
+        android:layout_below="@+id/editTextNovaPassword"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

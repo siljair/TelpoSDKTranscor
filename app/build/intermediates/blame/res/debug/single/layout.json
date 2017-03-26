@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transporte_privado.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\activity_transporte_privado.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\iccard_main.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\iccard_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_abertura_turno.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\activity_abertura_turno.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fechar_turno.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\activity_fechar_turno.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rfid_main.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\rfid_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\magnetic_main.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\magnetic_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_layout.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\spinner_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_resumo_fecho.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\activity_resumo_fecho.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\consume.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\consume.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ocr_main.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\ocr_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\idcard_main.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\idcard_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lay_input.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\lay_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_validar_passe.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\activity_validar_passe.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\print_main.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\layout\\print_main.xml"
+    }
+]

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.telpo.tps550.api.demo"
+    android:versionCode="1"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <receiver
+            android:name="com.telpo.tps550.api.demo.BroadCastReceiver"
+            android:enabled="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.telpo.tps550.api.demo.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:stateNotNeeded="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.ocr.OcrActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.megnetic.MegneticActivity"
+            android:label="@string/magnetic_card_test" />
+        <activity
+            android:name="com.telpo.tps550.api.demo.iccard.IccActivity"
+            android:label="@string/pcsc_test" />
+        <activity
+            android:name="com.telpo.tps550.api.demo.printer.PrinterActivity"
+            android:label="@string/print_test" />
+        <activity
+            android:name="com.telpo.tps550.api.demo.rfid.ConsumeActivity"
+            android:label="@string/rfid_test" />
+        <activity
+            android:name="com.telpo.tps550.api.demo.idcard.IdCardActivity"
+            android:label="@string/identity_test" />
+        <activity android:name="com.telpo.tps550.api.demo.rfid.RfidActivity" />
+        <activity
+            android:name="com.telpo.tps550.api.demo.AberturaTurno"
+            android:label="@string/title_activity_abertura_turno" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.ValidarPasse"
+            android:label="@string/title_activity_validar_passe" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.FecharTurno"
+            android:label="@string/title_activity_fechar_turno" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.ResumoFecho"
+            android:label="@string/title_activity_resumo_fecho" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.TransportePrivado"
+            android:label="@string/title_activity_transporte_privado" >
+        </activity>
+        <activity
+            android:name="com.telpo.tps550.api.demo.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>

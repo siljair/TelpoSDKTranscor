@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="printertype">
+        <item/>
+        <item>Chinese-English Printer</item>
+        <item>Multi-language Printer</item>
+    </string-array>
+    <color name="Black">#FF000000</color>
+    <color name="Blue">#ff61a8ff</color>
+    <color name="Common_Background">#FFDCDCDC</color>
+    <color name="Gray">#FF969696</color>
+    <color name="Gray_Line">#FFC0C0C0</color>
+    <color name="Orange">#FFFF831C</color>
+    <color name="Red">#FFC90000</color>
+    <color name="White">#FFFFFFFF</color>
+    <color name="preference_primary_text">#ff000000</color>
+    <color name="setting_background">#fff2f2f2</color>
+    <color name="transparent">#9000</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <item name="back_home" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="operation_barcode_auth" type="id"/>
+    <item name="operation_number_auth" type="id"/>
+    <item name="operation_reverse" type="id"/>
+    <item name="operation_sign_in" type="id"/>
+    <item name="operation_sign_out" type="id"/>
+    <item name="request_qrcode" type="id"/>
+    <item name="request_qrcode_success" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <string name="CharTest">ABCDEFGHIGKLMNOPQRSTUVWXYZabcdefghigklmnopqrstuvwxyz0123456789-!@#$%^&amp;*()?|\.</string>
+    <string name="CommonVer">Chinese-English printer</string>
+    <string name="LowBattery">Low battery, please connect the charger!</string>
+    <string name="MultilingualVer">Multi-language printer</string>
+    <string name="PrintTemp1">THP Temp:before print:20 degrees</string>
+    <string name="PrintTemp2">THP Temp:after print:30 degrees</string>
+    <string name="action_settings">Settings</string>
+    <string name="additional_code_title">Input additional code</string>
+    <string name="app_name">Transcor Bus</string>
+    <string name="back_home">Inicio</string>
+    <string name="bl_dy">Print</string>
+    <string name="bl_hqsfzxx">Get ID information</string>
+    <string name="bl_ht">Backward</string>
+    <string name="bl_qj">Forward</string>
+    <string name="bl_tc">Quit</string>
+    <string name="bl_xsdxx">Displayed Info:</string>
+    <string name="camera_indicator">Please put the ID card into the frame and take the photo .</string>
+    <string name="camera_open_error">Camera open error ! Please restart the machine !</string>
+    <string name="camera_take_picture_error">Take the picture fail</string>
+    <string name="card_sn">Card number is:</string>
+    <string name="check_version">Please wait while checking driver version</string>
+    <string name="cpu_card_test">Smart Card Test</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_comfirm">ConFirm</string>
+    <string name="dlg_ok">Confirm</string>
+    <string name="empty">The content is empty！</string>
+    <string name="error">Error</string>
+    <string name="error_addition_number">Additional code format error</string>
+    <string name="error_ipaddress">IP format error</string>
+    <string name="error_nolib">Library not found</string>
+    <string name="error_open_magnetic_card">Could not open magnetic card device</string>
+    <string name="error_port">Invalid port number</string>
+    <string name="error_security">No permission to read/write serial port</string>
+    <string name="error_trade_number">Trace number format error</string>
+    <string name="error_unexpect">Unknown error</string>
+    <string name="error_unknown">Could not open serial port, due to unknown error</string>
+    <string name="fignerprint_01">Pakistan Germany fingerprint (Developmenting)</string>
+    <string name="fignerprint_02">Pakistan Hongkong fingerprint (Developmenting)</string>
+    <string name="fignerprint_03">Domestic Hongkong fingerprint (available)</string>
+    <string name="fignerprint_tips_01">Please select the fingerprint device type</string>
+    <string name="fignerprint_tips_02">Developmenting</string>
+    <string name="finger_test">Fingerprint test</string>
+    <string name="flashlight_auto">Flashlight auto</string>
+    <string name="flashlight_cannot_set">Flashlight cannot be set</string>
+    <string name="flashlight_close">Flashlight close</string>
+    <string name="flashlight_open">Flashlight open</string>
+    <string name="get_rfid_sn">Get card number</string>
+    <string name="hello">Telpo Scan Demo for USB Host Mode</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ic_connect">Connect</string>
+    <string name="ic_iccid">Get ICCID</string>
+    <string name="ic_imsi">Get IMSI</string>
+    <string name="idcard_azsb">Setup failed</string>
+    <string name="idcard_csrq">Birthday:</string>
+    <string name="idcard_czz">Proceeding...</string>
+    <string name="idcard_dkqsb">"Identification by card reader"</string>
+    <string name="idcard_dkts">Please put your ID card on specific area......</string>
+    <string name="idcard_dqsbhcs">Read failed or time out</string>
+    <string name="idcard_dz">Address:</string>
+    <string name="idcard_hqsfzxx">Get ID card information</string>
+    <string name="idcard_ljdkq">Connecting to ID reader...</string>
+    <string name="idcard_ljdkqcg">Connect reader success</string>
+    <string name="idcard_mz">Nation:</string>
+    <string name="idcard_qzjg">Issuing authority：</string>
+    <string name="idcard_sfhm">ID：</string>
+    <string name="idcard_sxtsb">Identification by camera OCR</string>
+    <string name="idcard_wazsfsbmk">Setup ID identification module?</string>
+    <string name="idcard_wfljdkq">Connect reader failed</string>
+    <string name="idcard_xb">Gender:</string>
+    <string name="idcard_xm">Name:</string>
+    <string name="idcard_xzgn">Select function</string>
+    <string name="idcard_xzsfsbfs">Please choose a mode for ID identification</string>
+    <string name="idcard_yxqx">"Exp date: "</string>
+    <string name="idcard_zbdsfsbmk">ID identification module not found</string>
+    <string name="identity_test">ID card test</string>
+    <string name="lengthNotEnougth">The length is not enough！</string>
+    <string name="m1_card_test">M1 card test</string>
+    <string name="magnetic_card_test">Magnetic stripe card test</string>
+    <string name="menu_settings">Settings</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="noPaper">No paper</string>
+    <string name="noPaperNotice">No paper, please put paper in and retry</string>
+    <string name="not_support">Not support multi-language printer</string>
+    <string name="notsupportfocus">Not support focusing</string>
+    <string name="operation_fail">Operation failed</string>
+    <string name="operation_result">Result</string>
+    <string name="outOfFont">Beyond the font size！</string>
+    <string name="outOfGray">Beyond the gray level！</string>
+    <string name="outOfLeft">Beyond the left margin！</string>
+    <string name="outOfLine">Beyond the row space！</string>
+    <string name="overTemp">over temp !</string>
+    <string name="password_error">Password error</string>
+    <string name="pcsc_smart_card_fail">Failed to test the smart card</string>
+    <string name="pcsc_test">IC card test</string>
+    <string name="please">Please swipe card</string>
+    <string name="powerOff">Power off</string>
+    <string name="powerOn">Power on</string>
+    <string name="print_test">Print test</string>
+    <string name="printertype">Printer Type:</string>
+    <string name="ptintInit">Printer initialing... Please try again after a few seconds.</string>
+    <string name="qrcode_result">Scanning result</string>
+    <string name="qrcode_verify">Barcode verification</string>
+    <string name="read_card">Swipe card</string>
+    <string name="reco_dialog_blur">Recognized fail,Please put the ID card horizontal!</string>
+    <string name="reco_dialog_cdma">Please use CDMA machine</string>
+    <string name="reco_dialog_engine_init">Engine initialized fail.</string>
+    <string name="reco_dialog_imei">This machine is unauthorized.</string>
+    <string name="reco_dialog_licens">Verify abnormal,Please check the network.</string>
+    <string name="reco_dialog_time_out">Engine is out of date!!</string>
+    <string name="reco_dialog_title">Prompt</string>
+    <string name="recog_type_a">recognize positive</string>
+    <string name="recog_type_b">recognize negative</string>
+    <string name="recognize">Recognize</string>
+    <string name="retry">Retry</string>
+    <string name="reverse_title">Barcode reversal</string>
+    <string name="rfid_test">RFID test</string>
+    <string name="save_success">Save success</string>
+    <string name="selectprinter">Please choose printer type</string>
+    <string name="setting_password_title">Input password</string>
+    <string name="setting_tile">Setting</string>
+    <string name="take_front_side">Take front side</string>
+    <string name="take_the_front_side">Please take the front side of ID card.</string>
+    <string name="title_activity_abertura_turno">AberturaTurno</string>
+    <string name="title_activity_fechar_turno">FecharTurno</string>
+    <string name="title_activity_resumo_fecho">ResumoFecho</string>
+    <string name="title_activity_select_file_format">SelectFileFormatActivity</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_transporte_privado">TransportePrivado</string>
+    <string name="title_activity_validar_passe">ValidarPasse</string>
+    <string name="track1">Track1</string>
+    <string name="track2">Track2</string>
+    <string name="track3">Track3</string>
+    <string name="twoCemerna_test">Camera test</string>
+    <style name="Theme_Transparent">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+	</style>
+</resources>

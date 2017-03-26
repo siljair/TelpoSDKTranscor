@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.telpo.tps550.api.demo.ValidarPasse">
+    <item android:id="@+id/back_home" android:title="@string/back_home"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>

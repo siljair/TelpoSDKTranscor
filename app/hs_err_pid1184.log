@@ -1,0 +1,151 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=1184, tid=0x00000000000043c0
+#
+# JRE version:  (8.0_76-b03) (build )
+# Java VM: OpenJDK 64-Bit Server VM (25.76-b03 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000217a000):  JavaThread "Unknown thread" [_thread_in_vm, id=17344, stack(0x00000000023e0000,0x00000000024e0000)]
+
+Stack: [0x00000000023e0000,0x00000000024e0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000217a000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=17344, stack(0x00000000023e0000,0x00000000024e0000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 38400K, used 665K [0x00000000eab00000, 0x00000000ed580000, 0x0000000100000000)
+  eden space 33280K, 2% used [0x00000000eab00000,0x00000000eaba6670,0x00000000ecb80000)
+  from space 5120K, 0% used [0x00000000ed080000,0x00000000ed080000,0x00000000ed580000)
+  to   space 5120K, 0% used [0x00000000ecb80000,0x00000000ecb80000,0x00000000ed080000)
+ ParOldGen       total 87552K, used 0K [0x00000000c0000000, 0x00000000c5580000, 0x00000000eab00000)
+  object space 87552K, 0% used [0x00000000c0000000,0x00000000c0000000,0x00000000c5580000)
+ Metaspace       used 771K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 73K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x0000000002b70000,0x0000000002d80000] byte_map_base: 0x0000000002570000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000008409d00
+ Begin Bits: [0x0000000003d00000, 0x0000000004d00000)
+ End Bits:   [0x0000000004d00000, 0x0000000005d00000)
+
+Polling page: 0x0000000000230000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x0000000008490000, 0x0000000008700000, 0x0000000017490000]
+ total_blobs=57 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.025 loading class java/lang/Short
+Event: 0.025 loading class java/lang/Short done
+Event: 0.025 loading class java/lang/Integer
+Event: 0.025 loading class java/lang/Integer done
+Event: 0.025 loading class java/lang/Long
+Event: 0.025 loading class java/lang/Long done
+Event: 0.026 loading class java/lang/NullPointerException
+Event: 0.026 loading class java/lang/NullPointerException done
+Event: 0.026 loading class java/lang/ArithmeticException
+Event: 0.026 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x000000013f090000 - 0x000000013f0c1000 	C:\Program Files\Android\Android Studio\jre\bin\java.exe
+0x00000000777f0000 - 0x000000007799a000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00000000776d0000 - 0x00000000777ef000 	C:\Windows\system32\kernel32.dll
+0x000007fefd680000 - 0x000007fefd6ea000 	C:\Windows\system32\KERNELBASE.dll
+0x000007feff2f0000 - 0x000007feff3cb000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefefe0000 - 0x000007feff07f000 	C:\Windows\system32\msvcrt.dll
+0x000007feff7a0000 - 0x000007feff7bf000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007feff9d0000 - 0x000007feffafd000 	C:\Windows\system32\RPCRT4.dll
+0x00000000775d0000 - 0x00000000776ca000 	C:\Windows\system32\USER32.dll
+0x000007feff3d0000 - 0x000007feff437000 	C:\Windows\system32\GDI32.dll
+0x000007feff7c0000 - 0x000007feff7ce000 	C:\Windows\system32\LPK.dll
+0x000007feff460000 - 0x000007feff52a000 	C:\Windows\system32\USP10.dll
+0x000007fefb900000 - 0x000007fefbaf4000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_fa3b1e3d17594757\COMCTL32.dll
+0x000007feff870000 - 0x000007feff8e1000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefda90000 - 0x000007fefdabe000 	C:\Windows\system32\IMM32.DLL
+0x000007fefd980000 - 0x000007fefda89000 	C:\Windows\system32\MSCTF.dll
+0x0000000068870000 - 0x0000000068942000 	C:\Program Files\Android\Android Studio\jre\jre\bin\msvcr100.dll
+0x0000000007c50000 - 0x0000000008484000 	C:\Program Files\Android\Android Studio\jre\jre\bin\server\jvm.dll
+0x000007fef9a80000 - 0x000007fef9a89000 	C:\Windows\system32\WSOCK32.dll
+0x000007fefdc50000 - 0x000007fefdc9d000 	C:\Windows\system32\WS2_32.dll
+0x000007feff530000 - 0x000007feff538000 	C:\Windows\system32\NSI.dll
+0x000007fefaf00000 - 0x000007fefaf3b000 	C:\Windows\system32\WINMM.dll
+0x000007fefc5a0000 - 0x000007fefc5ac000 	C:\Windows\system32\VERSION.dll
+0x00000000779c0000 - 0x00000000779c7000 	C:\Windows\system32\PSAPI.DLL
+0x000007fefbf20000 - 0x000007fefbf2f000 	C:\Program Files\Android\Android Studio\jre\jre\bin\verify.dll
+0x000007fef9de0000 - 0x000007fef9e09000 	C:\Program Files\Android\Android Studio\jre\jre\bin\java.dll
+0x000007fef9e40000 - 0x000007fef9e56000 	C:\Program Files\Android\Android Studio\jre\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Djava.awt.headless=true -Xmx1024M -Dfile.encoding=windows-1252 -Duser.country=US -Duser.language=en -Duser.variant 
+java_command: com.android.dx.command.Main --dex --force-jumbo --output C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_530c57ab1f2879d5e09940c1cd6cdf3f5147a2a2.jar C:\Users\cardoso\StudioProjects\TelpoSDKTranscor\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar
+java_class_path (initial): C:\Users\cardoso\AppData\Local\Android\sdk\build-tools\21.1.2\lib\dx.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files (x86)\Java\jdk1.6.0_31
+PATH=C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\iis express\PHP\v5.4;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;c:\PROGRA~2\RSA SecurID Token Common;c:\PROGRA~1\Common Files\Microsoft Shared\Windows Live;c:\PROGRA~2\Common Files\Microsoft Shared\Windows Live;C:\Python27\Lib\site-packages\PyQt4\bin;c:\PROGRA~2\PC Connectivity Solution;c:\PROGRA~2\NVIDIA Corporation\PhysX\Common;C:\Windows\System32\WindowsPowerShell\v1.0;c:\PROGRA~1\WIDCOMM\Bluetooth Software;c:\PROGRA~1\WIDCOMM\Bluetooth Software\syswow64;c:\PROGRA~1\Broadcom\WHL;c:\PROGRA~1\Broadcom\WHL\syswow64;c:\PROGRA~1\Broadcom\WHL\SysWow64;c:\PROGRA~1\Broadcom\WHL\SysWow64\syswow64;c:\PROGRA~1\Intel\WiFi\bin;c:\PROGRA~1\Common Files\Intel\WirelessCommon;c:\PROGRA~2\Sony\VAIO Startup Setting Tool;c:\PROGRA~2\Windows Live\Shared;c:\PROGRA~2\Microsoft SQL Server\100\Tools\Binn;c:\PROGRA~1\Microsoft SQL Server\100\Tools\Binn;c:\PROGRA~1\Microsoft SQL Server\100\DTS\Binn;c:\PROGRA~2\Microsoft SQL Server\90\Tools\binn;c:\PROGRA~2\Autod;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\adt-bundle-windows-x86_64\adt-bundle-windows-x86_64\sdk\platform-tools\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\cardoso\Downloads\apache-ant-1.9.3-bin\apache-ant-1.9.3;C:\Program Files (x86)\Nmap
+USERNAME=cardoso
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 (6.1.7601.23572)
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, clmul, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 8369376k(1190528k free), swap 20237632k(5868k free)
+
+vm_info: OpenJDK 64-Bit Server VM (25.76-b03) for windows-amd64 JRE (1.8.0_76-release-b03), built on Jun 29 2016 19:09:20 by "ralucas" with MS VC++ 10.0 (VS2010)
+
+time: Sun Jan 08 12:44:04 2017
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

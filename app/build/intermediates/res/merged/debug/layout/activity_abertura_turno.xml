@@ -1,0 +1,205 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.telpo.tps550.api.demo.AberturaTurno"
+    android:background="@drawable/bg2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ABERTURA TURNO"
+        android:id="@+id/textView5"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:text="Encoste o cartao de condutor no leitor"
+        android:id="@+id/textView6"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30sp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textViewIdCartaoCondutor"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"
+            android:layout_below="@+id/textView6"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:layout_marginTop="50dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:ellipsize="middle" />
+
+
+
+            <RadioGroup
+                android:id="@+id/radioGroupTipoFrota"
+                android:orientation="horizontal"
+                android:layout_below="@id/textViewIdCartaoCondutor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                >
+
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Publico"
+                    android:textSize="35sp"
+                    android:id="@+id/radioButtonPublico"
+                    android:checked="true"
+
+                    android:layout_gravity="center_horizontal" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Privado"
+                    android:textSize="35sp"
+                    android:id="@+id/radioButtonPrivado"
+                    />
+
+            </RadioGroup>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewNome"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:text="Nome do Condutor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:autoText="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Autocarro"
+            android:id="@+id/textViewAuto"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textViewAutocarro"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:text="0"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Linha"
+            android:id="@+id/textView8"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/spinnerLinhaValid"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:text="0"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Turno"
+            android:id="@+id/textView12"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/spinnerTurno"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:text="0"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Confirmar"
+            android:id="@+id/buttonConfirmarAbertura"
+            android:visibility="visible"
+            android:textColor="#000000"
+            android:background="@drawable/button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/textViewIdCartaoCondutor"
+            android:layout_alignStart="@+id/textViewIdCartaoCondutor"
+            android:layout_alignRight="@+id/textViewIdCartaoCondutor"
+            android:layout_alignEnd="@+id/textViewIdCartaoCondutor"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBarArirTurno"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+
+</RelativeLayout>

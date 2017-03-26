@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" xmlns:android1="http://schemas.android.com/apk/res/android">
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:text="V 1.0.9"
+        android:id="@+id/demoSDK_Version"/>
+    
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="600dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/logo"
+            android:layout_weight="0.21" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Abrir Turno"
+            android:id="@+id/buttonAbrirTurno"
+            android:layout_gravity="center_horizontal"
+            android:textSize="50sp"
+            android:background="@drawable/button"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Fechar Turno"
+            android:id="@+id/buttonFecharTurno"
+            android:textSize="50sp"
+            android:background="@drawable/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Atualizar SW"
+            android:id="@+id/buttonParticlau"
+            android:textSize="50sp"
+            android:background="@drawable/disable"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:visibility="visible" />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Atualizar BD"
+            android:id="@+id/buttonUpdateBD"
+            android:textSize="50sp"
+            android:background="@drawable/disable"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:visibility="visible" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:id="@+id/buttonSettings"
+            android:textSize="50sp"
+            android:background="@drawable/disable"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:visibility="visible" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBarMain"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.21"
+            android:visibility="gone" />
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                >
+
+
+            <Button
+                    android:id="@+id/twoCemerna_btn"
+                    android:layout_width="120dp"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:width="120dp"
+                    android:height="45dp"
+                    android:background="@drawable/button"
+                    android:text="@string/twoCemerna_test"
+                    android:textSize="22dp"
+                    android:visibility="invisible"
+                    />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

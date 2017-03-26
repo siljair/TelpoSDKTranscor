@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+        <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/dimensional_code"/>
+        <ScrollView
+                android:layout_width="450dp"
+                android:layout_height="100dp">
+        <TextView
+                android:id="@+id/barcode"
+                android:layout_width="430dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/none"/>
+        </ScrollView>
+
+        <Button
+                android:id="@+id/recog1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="10pt"
+                android:text="@string/recognize"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/idCard_front_info"/>
+
+        <TextView
+                android:id="@+id/idInfo1"
+                android:layout_width="430dp"
+                android:layout_height="100dp"
+
+                android:text="@string/none"/>
+
+        <Button
+                android:id="@+id/recog2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/recognize"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/idCard_back_info"/>
+
+        <TextView
+                android:id="@+id/idInfo2"
+                android:layout_width="430dp"
+                android:layout_height="100dp"
+
+                android:text="@string/none"/>
+
+        <Button
+                android:id="@+id/recog3"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/recognize"/>
+    </LinearLayout>
+
+</LinearLayout>
+

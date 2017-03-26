@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <item type="id" name="request_qrcode"/>
+    <item type="id" name="request_qrcode_success"/>
+
+    <item type="id" name="restart_preview"/>
+    <item type="id" name="return_scan_result"/>
+    <item type="id" name="launch_product_query"/>
+
+    <!--定义服务器操作id-->
+    <item type="id" name="operation_sign_in"/>
+    <item type="id" name="operation_sign_out"/>
+    <item type="id" name="operation_barcode_auth"/>
+    <item type="id" name="operation_number_auth"/>
+    <item type="id" name="operation_reverse"/>
+</resources>

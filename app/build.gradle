@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.telpo.tps550.api.demo"
+        minSdkVersion 15
+        targetSdkVersion 15
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/acssmc-1.1.1.jar')
+    compile files('libs/core-3.1.0.jar')
+    compile files('libs/IDCReaderSDK.jar')
+    compile files('libs/telpo_api.jar')
+    compile files('libs/ksoap2-android-assembly-2.6.0-jar-with-dependencies.jar')
+}

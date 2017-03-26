@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_resumo_fecho.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\menu\\menu_resumo_fecho.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_fechar_turno.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\menu\\menu_fechar_turno.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_abertura_turno.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\menu\\menu_abertura_turno.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_settings.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\menu\\menu_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_select_file_format.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\menu\\activity_select_file_format.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_validar_passe.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\menu\\menu_validar_passe.xml"
+    },
+    {
+        "merged": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_transporte_privado.xml",
+        "source": "C:\\Users\\cardoso\\StudioProjects\\TelpoSDKTranscor\\app\\src\\main\\res\\menu\\menu_transporte_privado.xml"
+    }
+]

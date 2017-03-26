@@ -1,0 +1,253 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.telpo.tps550.api.demo.TransportePrivado"
+    android:background="@color/Gray">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+
+            android:background="@drawable/logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewDataHora0"
+            android:textColor="#ffffffff"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:text="ENCOSTE O CARTÃO NO LEITOR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffffff"
+            android:textSize="30sp"
+            android:id="@+id/textView2000"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold" />
+        <TextView
+            android:text="(((((( RFID ))))))"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffffff"
+            android:textSize="30sp"
+            android:id="@+id/textViewWaves0"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:background="#f9a93b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffa049"
+            android:textSize="30dp"
+            android:id="@+id/textViewResultLeitura0"
+            android:layout_below="@+id/textViewWaves0"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="TRANSPORTE PRIVADO"
+            android:id="@+id/textViewUltimaParagem0"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/textView30"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Coordenadas"
+            android:id="@+id/textView30"
+            android:textColor="#ffffffff"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="0;0"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:id="@+id/textViewLatitude0"
+            android:textColor="#ffffffff"
+            android:textSize="30sp"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Velocidade"
+            android:id="@+id/textView40"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="0"
+            android:id="@+id/textViewVelocidade0"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Autocarro:"
+                android:id="@+id/textView70"
+                android:textColor="#ffffffff"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="150dp"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ST-00-XX"
+                android:id="@+id/textViewAutocarroValid0"
+                android:textColor="#ffffffff"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:layout_alignTop="@+id/textView70"
+                android:layout_toRightOf="@+id/textView70" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Linha:"
+                android:id="@+id/textView0"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_below="@+id/textView70"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="150dp"
+                android:layout_alignParentBottom="false"
+                android:layout_alignWithParentIfMissing="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Privada"
+                android:id="@+id/textViewLinhaValid0"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffffff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/textViewAutocarroValid0"
+                android:layout_toRightOf="@+id/textViewAutocarroValid0"
+                android:layout_alignBottom="@+id/textView0" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/White"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:id="@+id/imageViewStatusCartao0"
+                android:maxWidth="80dp"
+
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true" />
+
+            <WebView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/webView0"
+                android:layout_gravity="center_vertical"
+                android:layout_below="@+id/imageViewStatusCartao0"
+                android:background="@color/White" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Paragens"
+            android:id="@+id/textViewParagens0"
+            android:textColor="#000000"
+            android:visibility="gone"
+            />
+        <SurfaceView
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:id="@+id/surfaceViewPic0"
+            android:layout_below="@+id/textViewParagens0"
+            android:focusableInTouchMode="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewBarCode0"
+            android:minHeight="100dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
